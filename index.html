@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Piedra, Papel, Tijera</title>
+    <style>
+        /* Estilos personalizados (si los necesitas) */
+    </style>
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="border border-warning py-4 px-3">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <h1 class="text-center">Juguemos! Piedra, Papel, Tijera</h1>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col">
+                    <div id="choices" class="d-flex justify-content-center">
+                        <div id="piedra" class="choice btn btn-primary mx-2" onclick="playGame('piedra')">Piedra</div>
+                        <div id="papel" class="choice btn btn-primary mx-2" onclick="playGame('papel')">Papel</div>
+                        <div id="tijera" class="choice btn btn-primary mx-2" onclick="playGame('tijera')">Tijera</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col">
+                    <div id="result" class="text-center font-weight-bold">
+                        <p>Elige una opción para jugar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="juego.js"></script>
+</body>
+
+</html>
