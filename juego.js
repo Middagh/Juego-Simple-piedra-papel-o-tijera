@@ -33,11 +33,12 @@ function getComputerChoice() {
     const result = checkResult(userChoice, computerChoice);
   
     document.getElementById('result').innerHTML = `
-      <p>Tu elección: ${convertToWord(userChoice)}</p>
-      <p>Elección de la computadora: ${convertToWord(computerChoice)}</p>
-      <p>${result}</p>
+      <h3>Tu elección: ${convertToWord(userChoice)}</h3>
+      <h3>Elección de la computadora: ${convertToWord(computerChoice)}</h3>
+      <h3>${result}</h3>
     `;
   }
+  
   
   // Evento de clic para las opciones del juego
   document.getElementById('piedra').addEventListener('click', () => playGame('piedra'));

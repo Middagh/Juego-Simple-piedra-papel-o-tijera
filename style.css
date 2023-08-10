@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(to bottom right, #FF6B6B, #FF8E53);
+    
+  }
+
+.btn:hover {
+    transform: translateY(-5px); 
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .border{
+    background: linear-gradient(to bottom right,#FF8E53, #FF6B6B);
+    
+  }
