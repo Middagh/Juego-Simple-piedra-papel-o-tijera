@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <title>Piedra, Papel, Tijera</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <main>
-        <div class="container d-flex justify-content-center align-items-center min-vh-100">
-            <div class="border border-warning border-4 py-4 px-3">
+        <div class="container d-flex flex-column align-items-center justify-content-center min-vh-100">
+            <div class="border border-warning border-4 py-4 px-3 mb-4">
                 <div class="row justify-content-center">
                     <div class="col">
-                        <h1 class="text-center">Juguemos! Piedra, Papel, Tijera</h1>
+                        <h1 class="text-center pb-4">Juguemos! Piedra, Papel, Tijera</h1>
                     </div>
                 </div>
-
+                <div>
+                    <img src="/img/PPT.svg" alt="PPT" id="manos" >
+                </div>
                 <div class="row justify-content-center pt-3">
                     <div class="col">
                         <div id="choices" class="d-flex justify-content-center">
@@ -35,16 +37,18 @@
                     </div>
                 </div>
 
-                <div class="row justify-content-center mt-4">
+                <div class="row justify-content-center mt-4 pb-10">
                     <div class="col">
                         <div id="result" class="text-center font-weight-bold">
                             <p>Elige una opción para jugar.</p>
                         </div>
                     </div>
                 </div>
-
+                
             </div>
         </div>
+       
+
 
         <script src="juego.js"></script>
     </main>

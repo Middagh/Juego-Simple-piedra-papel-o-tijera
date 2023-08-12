@@ -34,7 +34,7 @@ function getComputerChoice() {
   
     document.getElementById('result').innerHTML = `
       <h3>Tu elección: ${convertToWord(userChoice)}</h3>
-      <h3>Elección de la computadora: ${convertToWord(computerChoice)}</h3>
+      <h3>Elección de la compu: ${convertToWord(computerChoice)}</h3>
       <h3>${result}</h3>
     `;
   }
